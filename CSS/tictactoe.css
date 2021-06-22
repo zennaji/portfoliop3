@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 10px;
+}
+
+html,
+body {
+  background: linear-gradient(to right, #007991, #78ffd6);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Add correct CSS here for a grid overview */
+.board {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #78ffd6;
+  padding: 6px;
+}
+.field {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 70px;
+  text-align: center;
+  font-size: 100px;
+  font-family: Lucida Handwriting;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
