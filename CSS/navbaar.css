@@ -1,0 +1,15 @@
+/* css menu */
+
+#logo {
+    
+    padding-left: 45px;
+   
+}
+.menu-item
+{
+    color: #ec2f4b;
+    font-size: 17px ;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #89253e;
+}

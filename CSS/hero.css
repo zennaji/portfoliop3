@@ -1,0 +1,96 @@
+/*  Abou background */
+.divrot{
+
+    
+    left: 0px;
+    width: 100%;
+    min-height: 500px;
+    background: linear-gradient(to right, #3a6186, #89253e);
+    /*transform: skewY(-3deg);*/
+    z-index: -1;
+    pointer-events: none;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    
+}
+.abtm{
+    text-align: center;
+ 
+    color: #89253e;
+    font-weight: 900;
+}
+
+
+
+/*  about text css */
+
+
+.about1-p{
+  
+    
+    
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 70px;
+    line-height: 150%;
+   
+   
+} 
+/*  about img css */
+
+.mg{
+    margin-top: 30px;
+    
+  
+    
+}
+
+/* about quotes css */
+
+.artquo{
+    position: relative;
+    font-size: 12px;
+    padding: 20px 20px 30px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    min-width: 200px;
+    flex: 1 1 0%;
+    background-color: rgb(248, 248, 248);
+    box-shadow: rgb(0 0 0 / 5%) 0px 5px 10px;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+   
+}
+@keyframes example1 {
+    from {background-color: white;}
+    to {    background: linear-gradient(to right, #c9d6ff, #e2e2e2);}
+  }
+
+.artquo i{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    float: right;
+    font-size: 12px;
+   
+}
+/* hero */
+
+.hello{
+    color:#3a6186 ;
+}
+.za_text{
+    font-weight: 900;
+    color:#89253e ;
+   position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+    
+}
+@keyframes example {
+    from {color:#89253e ;}
+    to {color: #3a6186; }
+  }

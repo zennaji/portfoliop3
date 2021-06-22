@@ -1,0 +1,15 @@
+#cnt{
+    text-align: center;
+    margin-top: 70px;
+}
+#ftr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: linear-gradient(to right, #3a6186, #89253e);
+    font-size: large;
+    font-weight: 200;
+    color: white;
+    
+}
