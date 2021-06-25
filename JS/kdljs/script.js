@@ -73,23 +73,30 @@ selectVak.addEventListener('click', function () {
 
 //const gridItems = document.querySelectorAll(".grid-item-rooster");
 const gridItems = document.querySelectorAll(".inschrijving-item");
-
+const mijnLessen = document.querySelector(".mijn-lessen");
+let teller = 1;
 for (let i = 0; i < gridItems.length; i++) {
     gridItems[i].addEventListener("click", function () {
         console.log(this.textContent);
         const inschrijving = prompt("Ja/Nee om je in te schrijven voor fysieke lessen");
         console.warn(inschrijving);
 
+
         if (inschrijving.toLowerCase() === "ja") {
             alert("We hebben je inschreven voor " + this.textContent);
+            
+            
+            const pEl = document.createElement("p");
+            pEl.classList = "pEl";
+            pEl.textContent +=  `${teller++}- ${this.textContent} `;
+            mijnLessen.append(pEl);
+            
+
+
 
         }
     })
 
 }
-
-
-
-
 
 

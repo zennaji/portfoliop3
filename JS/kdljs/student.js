@@ -1,16 +1,16 @@
 export default class Student {
-    constructor(name, emailAdres, password){
+    constructor(name, emailAdres, password) {
         this.name = name;
         this.emailAdres = emailAdres;
         this.password = password;
     }
-    getName(){
+    getName() {
         return this.name;
     }
-    getEmailAdres(){
+    getEmailAdres() {
         return this.emailAdres;
     }
-    getPassword(){
+    getPassword() {
         return this.password;
     }
 }
