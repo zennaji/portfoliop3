@@ -4,7 +4,7 @@ inptAdd = document.querySelector(".Add");
 button = document.querySelector(".addbtn");
 // output selecteren
 output = document.querySelector(".output");
-// function met formule
+// eventlistener met function met formule
 button.addEventListener("click", function () {
   output.textContent = inptAdd.value / 3.2808;
 
