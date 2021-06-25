@@ -34,7 +34,7 @@ calcbtn.addEventListener("click", function(){
 })
 
 
-//==========
+//   Plus ==========
 let Inadd = document.querySelectorAll(".calculate-add-input");
 let Outadd = document.querySelector(".calculate-add-output");
 
@@ -45,7 +45,7 @@ calcbtn.addEventListener("click", function(){
     }
     
 })
-//==========
+// MIN ==========
 let Insub = document.querySelectorAll(".calculate-substract-input");
 let Outsub = document.querySelector(".calculate-substract-output");
 
